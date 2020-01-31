@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="awrmetric" targetNamespace="http://tempuri.org/awrmetric.xsd" xmlns:mstns="http://tempuri.org/awrmetric.xsd" xmlns="http://tempuri.org/awrmetric.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="awrmetric" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="awrmetric" msprop:Generator_UserDSName="awrmetric">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtWorkload" msprop:Generator_TableClassName="dtWorkloadDataTable" msprop:Generator_TableVarName="tabledtWorkload" msprop:Generator_TablePropName="dtWorkload" msprop:Generator_RowDeletingName="dtWorkloadRowDeleting" msprop:Generator_RowChangingName="dtWorkloadRowChanging" msprop:Generator_RowEvHandlerName="dtWorkloadRowChangeEventHandler" msprop:Generator_RowDeletedName="dtWorkloadRowDeleted" msprop:Generator_UserTableName="dtWorkload" msprop:Generator_RowChangedName="dtWorkloadRowChanged" msprop:Generator_RowEvArgName="dtWorkloadRowChangeEvent" msprop:Generator_RowClassName="dtWorkloadRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="HOSTNAME" msprop:Generator_ColumnVarNameInTable="columnHOSTNAME" msprop:Generator_ColumnPropNameInRow="HOSTNAME" msprop:Generator_ColumnPropNameInTable="HOSTNAMEColumn" msprop:Generator_UserColumnName="HOSTNAME" type="xs:string" />
+              <xs:element name="DBNAME" msprop:nullValue="_throw" msprop:Generator_ColumnPropNameInRow="DBNAME" msprop:Generator_ColumnVarNameInTable="columnDBNAME" msprop:Generator_ColumnPropNameInTable="DBNAMEColumn" msprop:Generator_UserColumnName="DBNAME" type="xs:string" minOccurs="0" />
+              <xs:element name="SNAP_TIME" msprop:Generator_ColumnVarNameInTable="columnSNAP_TIME" msprop:Generator_ColumnPropNameInRow="SNAP_TIME" msprop:Generator_ColumnPropNameInTable="SNAP_TIMEColumn" msprop:Generator_UserColumnName="SNAP_TIME" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="INSTANCE_NUMBER" msprop:Generator_ColumnVarNameInTable="columnINSTANCE_NUMBER" msprop:Generator_ColumnPropNameInRow="INSTANCE_NUMBER" msprop:Generator_ColumnPropNameInTable="INSTANCE_NUMBERColumn" msprop:Generator_UserColumnName="INSTANCE_NUMBER" type="xs:decimal" minOccurs="0" />
+              <xs:element name="METRIC_NAME_UNIT" msprop:Generator_ColumnVarNameInTable="columnMETRIC_NAME_UNIT" msprop:Generator_ColumnPropNameInRow="METRIC_NAME_UNIT" msprop:Generator_ColumnPropNameInTable="METRIC_NAME_UNITColumn" msprop:Generator_UserColumnName="METRIC_NAME_UNIT" type="xs:string" minOccurs="0" />
+              <xs:element name="MAXVALUE" msprop:Generator_ColumnVarNameInTable="columnMAXVALUE" msprop:Generator_ColumnPropNameInRow="MAXVALUE" msprop:Generator_ColumnPropNameInTable="MAXVALUEColumn" msprop:Generator_UserColumnName="MAXVALUE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AVERAGE" msprop:Generator_ColumnVarNameInTable="columnAVERAGE" msprop:Generator_ColumnPropNameInRow="AVERAGE" msprop:Generator_ColumnPropNameInTable="AVERAGEColumn" msprop:Generator_UserColumnName="AVERAGE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="STANDARD_DEVIATION" msprop:Generator_ColumnVarNameInTable="columnSTANDARD_DEVIATION" msprop:Generator_ColumnPropNameInRow="STANDARD_DEVIATION" msprop:Generator_ColumnPropNameInTable="STANDARD_DEVIATIONColumn" msprop:Generator_UserColumnName="STANDARD_DEVIATION" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ISBASEPOINT" msprop:Generator_ColumnVarNameInTable="columnISBASEPOINT" msprop:Generator_ColumnPropNameInRow="ISBASEPOINT" msprop:Generator_ColumnPropNameInTable="ISBASEPOINTColumn" msprop:Generator_UserColumnName="ISBASEPOINT" type="xs:string" minOccurs="0" />
+              <xs:element name="ISSAVEPOINT" msprop:Generator_ColumnVarNameInTable="columnISSAVEPOINT" msprop:Generator_ColumnPropNameInRow="ISSAVEPOINT" msprop:Generator_ColumnPropNameInTable="ISSAVEPOINTColumn" msprop:Generator_UserColumnName="ISSAVEPOINT" type="xs:string" minOccurs="0" />
+              <xs:element name="SAVEPOINT_DATE" msprop:Generator_ColumnVarNameInTable="columnSAVEPOINT_DATE" msprop:Generator_ColumnPropNameInRow="SAVEPOINT_DATE" msprop:Generator_ColumnPropNameInTable="SAVEPOINT_DATEColumn" msprop:Generator_UserColumnName="SAVEPOINT_DATE" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
